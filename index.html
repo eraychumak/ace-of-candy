@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+
+<!-- EASY: 10s
+MEDIUM: 5s
+HARD: 2s -->
+
+<html lang="en-US">
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <link href="./style.css" rel="stylesheet"/>
+    </head>
+    <body>
+        <div class="mouse_follow"></div>
+
+        <header>
+            <p id="title">Ace of Candy</p>
+        </header>
+
+        <section>
+                <div class="play right">
+                    <h1>GOT THE BOARD ALREADY?</h1>
+                    <a class="play" id="highlight" href="#">PLAY NOW</a>
+                </div>
+            <img id="board" src="./assets/board.svg"/>
+            <h1>How to play</h1>
+            <div class="container">
+                <div class="box left">
+                    <h2>
+                        Setup
+                        <img id="header_image" src="./assets/setup.svg"/>
+                    </h2>
+                    <p>Each player starts with 2 cards.</p>
+                    <p>You have a choice between pick-up or stick.</p>
+                    <p>The center of the board is split into two different piles,
+                        one being a place to pick up cards and the other for placing them down.</p>
+                </div>
+                <div class="box right">
+                    <h2>
+                        Gameplay
+                        <img id="header_image" src="./assets/controller.svg"/>
+                    </h2>
+                    <p>You cannot stick on any number under 16.</p>
+                    <p>If you go over 21 you go bust and lose.</p>
+                    <p>The player that gets 21, or closest to 21 wins the game.</p>
+                </div>
+            </div>
+        </section>
+        <section>
+            <h2>Modes</h2>
+            <div class="container">
+                <div class="box left">
+                    <h2>EASY</h2>
+                    <p>Each player has 10 seconds to make a decision. If you go over
+                        the time limit, you're out.</p>
+                </div>
+                <div class="box">
+                    <h2>NORMAL</h2>
+                    <p>Each player has 5 seconds to make a decision. If you go over
+                        the time limit, you're out.</p>
+                </div>
+                <div class="box right">
+                    <h2>HARD</h2>
+                    <p>Each player has 2 seconds to make a decision. If you go over
+                        the time limit, you're out.</p>
+                </div>
+            </div>
+        </section>
+
+        <div class="purchase">
+            <p>PURCHASE YOUR VERY OWN</p>
+            <a id="highlight" href="#">ACE OF CANDY</a>
+            <p>BOARD NOW!</p>
+        </div>
+
+        <script src="./main.js"></script>
+    </body>
+</html>
